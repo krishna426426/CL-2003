@@ -32,3 +32,9 @@ To access the lab, you will need to use a Remote Desktop connection to a pod spe
 The services, features, and technologies that are enabled with the lab envrionment are shown below:
 
 <img src="imgs/pods.png" style="zoom:65%;" />
+
+# Module 1 - Guest Shell and On-Box Python
+
+#### [https://github.com/krishna426426/Module-1-Guestshell](https://github.com/krishna426426/Module-1-Guestshell)
+
+Guest Shell is the Linux container that is available within IOS XE. It provides a Python API that enables programmatic device configuration using the included on-box CLI modules. Guest Shell includes the Bash Shell with access to the YUM package manager as well as the Python interpretor which makes it a very flexible and powerful automation option for network engineers.
