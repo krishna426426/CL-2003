@@ -47,7 +47,7 @@ In this lab module the Ansible automation tooling is used for a variety of tasks
 
 # Module 6 - Zero Touch Provisioning (ZTP)
 
-https://github.com/krishna426426/Module-6-ZTP
+**https://github.com/krishna426426/Module-6-ZTP**
 
 In this module, you will verify and confirm the prerequisitesfor ZTP, the Zero Touch Provisioning feature of IOS XE on the Catalyst 9300 switch. At the end of this module, you will issue the ‘write erase’ command, reload the switch, and watch as the ZTP process completes and the switch is configured programmatically and automatically.
 
