@@ -35,9 +35,29 @@ The services, features, and technologies that are enabled with the lab envrionme
 
 # Module 1 - Guest Shell and On-Box Python
 
-#### [https://github.com/krishna426426/Module-1-Guestshell](https://github.com/krishna426426/Module-1-Guestshell)
+#### **https://github.com/krishna426426/Module-1-Guestshell**
 
 Guest Shell is the Linux container that is available within IOS XE. It provides a Python API that enables programmatic device configuration using the included on-box CLI modules. Guest Shell includes the Bash Shell with access to the YUM package manager as well as the Python interpretor which makes it a very flexible and powerful automation option for network engineers.
+
+
+
+# Module 2 - YANG Suite
+
+**https://github.com/jeremycohoe/cisco-ios-xe-programmability-lab-YANGSuite**
+
+**YANG Suite** is a tool developed by Cisco to help you visualize YANG data models downloaded from a device, to test sending and receiving data to/from devices using YANG models, as well as a NETCONF RPC Builder Application to experiment with YANG Data Models.
+
+# Module 3 - Model Driven Telemetry (MDT)
+
+**https://github.com/jeremycohoe/cisco-ios-xe-programmability-lab-module-6-mdt**
+
+The Model Driven Telemetry module contains an overview of the various telemetry interfaces available on IOS XE as well as the YANG data models that are available. CLI tooling and examples for **NETCONF, gRPC, and gNMI** is provided which enables base functionality and validation of the model driven telemetry interfaces. Once the basics of the interfaces are understood then the **Telegraf, InfluxDB, and Grafana tooling** is used for visual representation of the telemetry data. This solution is packaged into a Docker container where the configurations, dashboards, and sample data is avilable for viewing.
+
+# Module 4 - gRPC Network Management Interface (gNMI)
+
+**https://github.com/jeremycohoe/cisco-ios-xe-programmability-lab-module-5-gnmi**
+
+This lab module covers the gRPC Network Management Interface (gNMI) that enables device programmability. gNMI supports Model Driven Telemetry which is covered in the MDT module. An overview of the API interface is provided before reviewing the configuration and implmetation details, specifically the TLS certification generation and installation into IOS XE. The gNMI API is used in both secure and insecure server modes which provides the most flexibility in the lab envrionment. The YANGSuite and gnmi_cli tooling is available to easily interact with the API and some examples for retreiving operational and configuration data is provided.
 
 # Module 5 - Ansible CLI and NETCONF Automation
 
@@ -50,5 +70,3 @@ In this lab module the Ansible automation tooling is used for a variety of tasks
 **https://github.com/krishna426426/Module-6-ZTP**
 
 In this module, you will verify and confirm the prerequisitesfor ZTP, the Zero Touch Provisioning feature of IOS XE on the Catalyst 9300 switch. At the end of this module, you will issue the ‘write erase’ command, reload the switch, and watch as the ZTP process completes and the switch is configured programmatically and automatically.
-
-# 
