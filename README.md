@@ -43,19 +43,19 @@ Guest Shell is the Linux container that is available within IOS XE. It provides 
 
 # Module 2 - YANG Suite
 
-**https://github.com/jeremycohoe/cisco-ios-xe-programmability-lab-YANGSuite**
+**https://github.com/krishna426426/Module-2-YANGSuite**
 
 **YANG Suite** is a tool developed by Cisco to help you visualize YANG data models downloaded from a device, to test sending and receiving data to/from devices using YANG models, as well as a NETCONF RPC Builder Application to experiment with YANG Data Models.
 
 # Module 3 - Model Driven Telemetry (MDT)
 
-**https://github.com/jeremycohoe/cisco-ios-xe-programmability-lab-module-6-mdt**
+**https://github.com/krishna426426/Module-3-MDT**
 
 The Model Driven Telemetry module contains an overview of the various telemetry interfaces available on IOS XE as well as the YANG data models that are available. CLI tooling and examples for **NETCONF, gRPC, and gNMI** is provided which enables base functionality and validation of the model driven telemetry interfaces. Once the basics of the interfaces are understood then the **Telegraf, InfluxDB, and Grafana tooling** is used for visual representation of the telemetry data. This solution is packaged into a Docker container where the configurations, dashboards, and sample data is avilable for viewing.
 
 # Module 4 - gRPC Network Management Interface (gNMI)
 
-**https://github.com/jeremycohoe/cisco-ios-xe-programmability-lab-module-5-gnmi**
+**https://github.com/krishna426426/Module-4-gnmi**
 
 This lab module covers the gRPC Network Management Interface (gNMI) that enables device programmability. gNMI supports Model Driven Telemetry which is covered in the MDT module. An overview of the API interface is provided before reviewing the configuration and implmetation details, specifically the TLS certification generation and installation into IOS XE. The gNMI API is used in both secure and insecure server modes which provides the most flexibility in the lab envrionment. The YANGSuite and gnmi_cli tooling is available to easily interact with the API and some examples for retreiving operational and configuration data is provided.
 
