@@ -55,13 +55,13 @@ The Model Driven Telemetry module contains an overview of the various telemetry 
 
 # Module 4 - Ansible CLI and NETCONF Automation
 
-#### https://github.com/krishna426426/Module-5-Ansible
+#### https://github.com/krishna426426/Module-4-Ansible
 
 In this lab module the Ansible automation tooling is used for a variety of tasks. The Ansible CLI module is used to configure VRFs against multiple IOS XE devices at once. The **ios_config** module is also used to configure some devices features including NTP and ACL's. The **NETCONF** module can be used to further programmatically configure device features using **YANG** data models, so an exmple to enable the **gRPC Model Driven Telemetry** feature is provided. Finally an example playbook is provided to **upgrade the IOS XE switch** to a new version.
 
 # Module 5 - Zero Touch Provisioning (ZTP)
 
-**https://github.com/krishna426426/Module-6-ZTP**
+**https://github.com/krishna426426/Module-5-ZTP**
 
 In this module, you will verify and confirm the prerequisites for ZTP, the Zero Touch Provisioning feature of IOS XE on the Catalyst 9300 switch. At the end of this module, you will issue the ‘write erase’ command, reload the switch, and watch as the ZTP process completes and the switch is configured programmatically and automatically.
 
@@ -73,6 +73,7 @@ The following module is for your reference and If you still have time feel free 
 
 # Module 6 - gRPC Network Management Interface (gNMI)
 
-**https://github.com/krishna426426/Module-4-gnmi**
+**https://github.com/krishna426426/Module-6-gnmi**
 
 This lab module covers the gRPC Network Management Interface (gNMI) that enables device programmability. gNMI supports Model Driven Telemetry which is covered in the MDT module. An overview of the API interface is provided before reviewing the configuration and implmetation details, specifically the TLS certification generation and installation into IOS XE. The gNMI API is used in both secure and insecure server modes which provides the most flexibility in the lab envrionment. The YANGSuite and gnmi_cli tooling is available to easily interact with the API and some examples for retreiving operational and configuration data is provided.
+
