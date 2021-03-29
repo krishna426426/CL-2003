@@ -16,7 +16,7 @@ Upon completion of this lab, you will be able to:
 - Find a YANG model for your needs using YANGSUITE
 - Use NETCONF and gNMI to communicate with IOS XE devices
 - Use Model-Driven Telemetry to collect the data
-- Use Guest shell and on-box Python on Catalyst 9300 switch
+- Use Guest shell, on-box Python  and integrate EEM on Catalyst 9300 switch
 - Write an Ansible playbook to automate your network
 
 
